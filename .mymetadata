@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dbutils"
+  id="myeclipse.1457771905587"
+  context-root="/dbutils"
+  j2ee-spec="6.0"
+  archive="dbutils.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
