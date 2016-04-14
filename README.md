@@ -24,7 +24,7 @@
 	<artifactId>druid</artifactId>
 	<version>1.0.18</version>
 </dependency>
-```
+```xml
 
 **c3p0:**
 https://sourceforge.net/projects/c3p0/files/?source=navbar
