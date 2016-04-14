@@ -116,7 +116,19 @@
 			driverClassName="org.postgresql.Driver"
 			url="jdbc:postgresql://localhost/postgres"/>
 			
-			
+	<!--配置Sqlite数据库的JNDI数据源-->
+	<Resource 
+			name="jdbc/dbcp_sqlite"
+			auth="Container" 
+			type="javax.sql.DataSource"
+			maxActive="100" 
+			maxIdle="30" 
+			maxWait="10000"
+			username="postgres" 
+			password="postgres"
+			driverClassName="org.postgresql.Driver"
+			url="jdbc:postgresql://localhost/postgres"/>
+					
    
         
     <!-- 使用C3P0配置针对Oracle数据库的JNDI数据源 -->
